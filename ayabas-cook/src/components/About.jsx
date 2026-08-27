@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle2 } from 'lucide-react';
+import chefImage from '../assets/ayabas_chef.jpg';
 import './About.css';
 
 const About = () => {
@@ -22,7 +23,7 @@ const About = () => {
           transition={{ duration: 0.6 }}
         >
           <img 
-            src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&q=80&w=800&h=1000" 
+            src={chefImage} 
             alt="Cuisine d'Ayaba" 
             className="about-image"
           />

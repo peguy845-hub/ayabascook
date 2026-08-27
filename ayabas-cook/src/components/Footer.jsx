@@ -1,4 +1,5 @@
 import React from 'react';
+import logoImage from '../assets/logo.png';
 import './Footer.css';
 // Lucide-react doesn't have brand icons, so we'll use text or generic icons
 
@@ -7,8 +8,8 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer-container">
         <div className="footer-brand">
-          <a href="#" className="logo">
-            <span style={{ color: 'var(--color-primary)' }}>Ayaba's</span> Cook
+          <a href="#" className="logo" style={{ display: 'block', marginBottom: '1rem' }}>
+            <img src={logoImage} alt="Ayaba's Cook" style={{ height: '80px', width: 'auto' }} />
           </a>
           <p className="footer-desc">
             Des repas africains authentiques, cuisinés avec amour et livrés chez vous.

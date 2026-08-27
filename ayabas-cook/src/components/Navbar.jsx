@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ShoppingBag } from 'lucide-react';
 import { motion } from 'framer-motion';
+import logoImage from '../assets/logo.png';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -25,8 +26,8 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container navbar-container">
-        <a href="#" className="logo">
-          <span style={{ color: 'var(--color-primary)' }}>Ayaba's</span> Cook
+        <a href="#" className="logo" style={{ display: 'flex', alignItems: 'center' }}>
+          <img src={logoImage} alt="Ayaba's Cook" style={{ height: '60px', width: 'auto' }} />
         </a>
 
         {/* Desktop Nav */}
