@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ShoppingBag } from 'lucide-react';
 import { motion } from 'framer-motion';
-import logoImage from '../assets/logo.png';
+import logoImage from '../assets/Logo.png';
 import './Navbar.css';
 
 const Navbar = () => {

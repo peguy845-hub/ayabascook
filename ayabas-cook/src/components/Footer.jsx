@@ -1,5 +1,5 @@
 import React from 'react';
-import logoImage from '../assets/logo.png';
+import logoImage from '../assets/Logo.png';
 import './Footer.css';
 // Lucide-react doesn't have brand icons, so we'll use text or generic icons
 
