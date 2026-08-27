@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd ayabas-cook && npm run build",
+  "outputDirectory": "ayabas-cook/dist",
+  "installCommand": "cd ayabas-cook && npm install"
+}
