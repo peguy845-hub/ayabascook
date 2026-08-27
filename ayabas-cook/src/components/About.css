@@ -1,0 +1,85 @@
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.about-image-wrapper {
+  position: relative;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+}
+
+.experience-badge {
+  position: absolute;
+  bottom: -2rem; /* Will be adjusted by overflow: hidden, so we place it slightly inside */
+  right: 2rem;
+  bottom: 2rem;
+  background-color: var(--color-primary);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(255, 107, 0, 0.4);
+}
+
+.experience-badge .years {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.experience-badge .text {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.about-content h2 {
+  margin-bottom: 1.5rem;
+}
+
+.about-description {
+  font-size: 1.125rem;
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.features-list li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-image-wrapper {
+    order: 2;
+  }
+
+  .about-content {
+    order: 1;
+  }
+}
