@@ -33,7 +33,7 @@ const Delivery = () => {
         <div className="section-header">
           <span className="subtitle">Nos Services</span>
           <h2>Commandez, nous gérons le reste</h2>
-          <p>Profitez de notre service de livraison rapide et fiable. Ayaba's Cook s'assure que votre repas arrive dans les meilleures conditions.</p>
+          <p>Profitez de notre service de livraison rapide et fiable. <span translate="no">Ayaba's Cook</span> s'assure que votre repas arrive dans les meilleures conditions.</p>
         </div>
 
         <div className="delivery-grid">

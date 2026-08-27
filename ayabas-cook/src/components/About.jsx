@@ -43,7 +43,7 @@ const About = () => {
           <span className="subtitle">À Propos de Nous</span>
           <h2>L'art culinaire africain, <br/> une affaire de passion.</h2>
           <p className="about-description">
-            Chez Ayaba's Cook, nous croyons que la nourriture est le reflet de l'âme. 
+            Chez <span translate="no">Ayaba's Cook</span>, nous croyons que la nourriture est le reflet de l'âme. 
             Notre mission est de vous faire voyager à travers le continent africain avec des plats riches en histoire, en couleurs et en saveurs.
           </p>
           <ul className="features-list">

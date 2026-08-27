@@ -37,7 +37,7 @@ const Testimonials = () => {
         <div className="section-header">
           <span className="subtitle">Témoignages</span>
           <h2>Ce qu'ils disent de nous</h2>
-          <p>La satisfaction de nos clients est notre plus grande fierté. Lisez leurs expériences avec Ayaba's Cook.</p>
+          <p>La satisfaction de nos clients est notre plus grande fierté. Lisez leurs expériences avec <span translate="no">Ayaba's Cook</span>.</p>
         </div>
 
         <div className="testimonials-grid">

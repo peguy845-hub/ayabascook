@@ -24,7 +24,7 @@ const Hero = () => {
             </h1>
             <p className="hero-subtitle">
               Découvrez des saveurs vibrantes et des plats préparés avec passion. 
-              Ayaba's Cook vous offre une expérience culinaire inoubliable, de la commande à la première bouchée.
+              <span translate="no">Ayaba's Cook</span> vous offre une expérience culinaire inoubliable, de la commande à la première bouchée.
             </p>
             <div className="hero-actions">
               <a href="#contact" className="btn btn-primary">

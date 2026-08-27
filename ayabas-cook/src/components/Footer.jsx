@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Ayaba's Cook. Tous droits réservés.</p>
+        <p>&copy; {new Date().getFullYear()} <span translate="no">Ayaba's Cook</span>. Tous droits réservés.</p>
       </div>
     </footer>
   );
